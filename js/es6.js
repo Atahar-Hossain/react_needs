@@ -9,3 +9,9 @@ const about = `My Name is${student.name} age of ${student.age} has number ${numb
 console.log(about);
 
 // 2. arrow function
+
+const getFiftyFive = () => 55;
+const firstArrowFunction = () => {
+	console.log(`i am ready for print`);
+};
+const isEven = (x) => x % 2 == 0;
