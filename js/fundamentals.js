@@ -28,3 +28,14 @@ function add(num1, num2) {
 
 const total = add(35, 78);
 console.log(total);
+
+// 6.Object decleration, 3 ways to access property by name
+const students = {
+	name: `shakib khan`,
+	age: 35,
+	movies: [`king khan`, `dhakar mastan`],
+};
+const myAge = `age`;
+console.log(students.age); // direct by property
+console.log(students[`age`]); //access via property name string
+console.log(students[myAge]); //access via property name in a variable
