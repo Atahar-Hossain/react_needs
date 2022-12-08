@@ -7,3 +7,5 @@ const student = {
 };
 const about = `My Name is${student.name} age of ${student.age} has number ${numbers[2]}also liked movies ${student.movies[0]}`;
 console.log(about);
+
+// 2. arrow function
