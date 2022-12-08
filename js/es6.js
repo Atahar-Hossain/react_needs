@@ -11,7 +11,9 @@ console.log(about);
 // 2. arrow function
 
 const getFiftyFive = () => 55;
-const firstArrowFunction = () => {
-	console.log(`i am ready for print`);
+const firstArrowFunction = (num1, num2) => {
+	const sum = num1 + num2;
+	return sum;
 };
 const isEven = (x) => x % 2 == 0;
+// 3. spread operator
