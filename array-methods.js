@@ -8,3 +8,5 @@ const products = [
 ];
 const brands = products.map((product) => product.brand);
 console.log(brands);
+const prices = products.map((product) => product.price);
+console.log(prices);
