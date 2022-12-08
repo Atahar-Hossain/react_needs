@@ -15,5 +15,7 @@ const firstArrowFunction = (num1, num2) => {
 	const sum = num1 + num2;
 	return sum;
 };
+
 const isEven = (x) => x % 2 == 0;
 // 3. spread operator
+// need more study on spread operator
