@@ -1,3 +1,4 @@
+//1. JSON stringfy and JSON parse
 const students = {
 	name: `abdul halim`,
 	age: 26,
@@ -12,3 +13,24 @@ console.log(studentsStringify);
 
 const studentsParse = JSON.parse(studentsStringify);
 console.log(studentsParse);
+
+// 2. fetch
+fetch(`url`)
+	.then((res) => res.json())
+	.then((data) => console.log(data));
+
+// 3. keys and values
+const keys = Object.keys(students);
+const values = Object.values(students);
+
+// 4. for
+const numbers = [23, 54, 67, 87, 23, 78];
+
+numbers.forEach((num) => console.log(num)); //if we dont want to get any return from array
+numbers.map((num) => num * 2); //if we want to get return something from array
+
+/* --------------------
+
+study on for in, for each, for of, and map
+study on  f
+ =------------------*/
