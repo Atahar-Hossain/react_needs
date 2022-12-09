@@ -32,5 +32,10 @@ numbers.map((num) => num * 2); //if we want to get return something from array
 /* --------------------
 
 study on for in, for each, for of, and map
-study on  f
+study on  module 42-5  !this is important!
  =------------------*/
+const newProduct = { name: `webcam`, price: 700, brand: `lal` };
+const newProducts = [...products, newProduct];
+// create a new array without one specific item
+
+const remaining = products.filter((product) => product.name !== `phone`);
